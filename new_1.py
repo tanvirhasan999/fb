@@ -372,7 +372,7 @@ def menu():
         crack_file()
     elif ROUK in ('2', '02'):
         os.system('xdg-open https://wa.me/+8801616353478')
-        os.system('python axe.py')
+        menu()
     elif ROUK in ('0',):
         exit()
     else:
@@ -566,7 +566,7 @@ def passwrd():
     animation(f'''\x1b[10;93m[\x1b[10;92m•\x1b[10;93m] \x1b[10;92mCOMPLETE YOUR TOTAL OK IDz \x1b[10;91m:\x1b[10;92m {h}%s ''' % ok)
     animation('\x1b[10;93m[\x1b[10;92m•\x1b[10;93m]============================================')
     woi = input('\x1b[10;93m[\x1b[10;92m•\x1b[10;93m] \x1b[10;91mCLICK ENTER TO EXIT ')
-    os.system("python axe.py")
+    os.system("python new_1.py")
     exit()
 
 #================[ HOST-METHOD]======≠====#
